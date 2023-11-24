@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+/* PT Sans */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;600&family=Noto+Sans+Kawi&family=PT+Sans&display=swap');
+
+/* body {
+    font-family: Open Sans,arial,sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+} */
+
+
+:root {
+    --mainColor: rgb(5, 15, 20);
+    --padding: 10px 10px 10px 10px;
+}
+
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+
+header {
+    background-color: black;
+    /* margin-top: auto;
+    margin-bottom: auto;
+    padding: 1rem 0 0 1rem; */
+}
+
+header > * a {
+    text-decoration: none;
+    color: white;
+    text-align: justify;
+    font-size: 1.75rem;
+    font-weight: 600;
+    padding: 0 1rem 0 1rem;
+}
+
+p {
+    color: white;
+}
+
+body > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body {
+    padding: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    background-color: black;
+}
+
+body > * p {
+    text-align: justify;
+    padding-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+    font-size: 1.65rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+footer {
+    background-color: black;
+}
+
+
+/* * {
+
+} */
+
+/* header {
+    color: white;
+    height: auto;
+    background-color: var(--mainColor);
+    padding: 1rem;
+} */
+
+/* .contenedor {
+    margin-left: 20rem;
+    margin-right: 20rem;
+} */
+
+.logo {
+    color: white;
+    font-size: 30px;
+}
+.amd {
+   width: 7rem;
+}
+.bootstrap {
+    /* width: 4%; */
+    width: 3.5rem;
+}
+
+/* .about-text {
+    text-decoration: none;
+    font-weight: medium;
+    color: inherit;
+    font-size: large;
+}
+
+[class = "about col-sm"] {
+    margin-top: auto;
+    margin-bottom: auto;
+} */
