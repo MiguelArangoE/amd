@@ -14,43 +14,34 @@
   <link rel="stylesheet" href="styles/main.css" />
   <title>AMD: Presentación</title>
   <style>
-    [class*="col"] {
-      padding: 1rem;
+    /* [class*="col"] {
+      padding: 1rem; */
       /* background-color: black;
       border: 2px solid #fff;
       color: #fff;
       text-align: center; */
-    }
-    [class*="con"] {
-      padding: 1rem;
+    /* } */
+    /* [class*="con"] {
+      padding: 1rem; */
       /* background-color: #9e33e5;
       border: 2px solid #fff;
       color: #fff; */
-      text-align: center;
-    }
+      /* text-align: center;
+    } */
   </style>
 </head>
 
 <header>
-  <!-- <div class="container-fluid">
-    <img class="amd" src="images/AMD_Logo_2.png"/>
-    <a>X</a> 
-    <img class="bootstrap" src="images/Bootstrap_Logo_2.png"/>
-  </div>
-  <nav class="navegacion">
-    <a href="#">Productos</a>
-    <a href="#">Contexto</a>
-    <a href="#">Casos de Estudio</a>
-  </nav> -->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="logo col-md-2">
+  <div class="navi container-fluid fixed-top">
+    <div class="row justify-content-center align-items-center p-2">
+      
+      <div class="logo col-sm-4 d-flex justify-content-start align-items-center">
         <img class="amd" src="images/AMD_Logo_2.png" />
         <a>X</a>
         <img class="bootstrap" src="images/Bootstrap_Logo_2.png" />
       </div>
 
-      <div class="about col-sm justify-content-center navbar">
+      <div class="about col d-flex justify-content-center">
         <a href="https://miguelarangoe.github.io/www/">
           <i class="fa-solid fa-door-open"></i>
         </a>
@@ -62,7 +53,13 @@
         </a>
       </div>
 
-      <div class="settings col-sm-2"></div>
+      <div class="settings col-sm-4 d-flex justify-content-end text-center">
+        <a href="#">Inicio</a>
+        <a href="#">Productos</a>
+        <a href="#">Sobre Nosotros</a>
+        <a href="#">Contactos</a>
+      </div>
+
     </div>
   </div>
 </header>
@@ -190,7 +187,8 @@
           </p>
         </div>
         <div class="col-sd">
-         <p style="margin: 0 auto 0 auto; text-align: center; padding-top: 2rem; padding-bottom: 2rem; font-size: 1.5rem; width: 60%;">
+        <h1 style="font-size: 2rem;">Eslogan</h1>
+         <p style="margin: 0 auto 0 auto; text-align: center; padding-bottom: 2rem; font-size: 1.5rem; width: 60%;">
           <i>"Para lograr un progreso real, es necesario que la innovación revolucionaria y el ingenio humano se unan para crear algo excepcional."</i>
         </p>
         </div>
@@ -312,9 +310,9 @@
 
 
   <footer>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md redes">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-md redes m-2">
           <h1>Redes Sociales</h1>
           
             <a href="http://www.facebook.com/amd" target="_blank">
@@ -341,7 +339,7 @@
           
   
         </div>
-        <div class="col-md fuentes">
+        <div class="col-md fuentes m-2">
           <h1>Fuentes</h1>
           <ul>
             <li>

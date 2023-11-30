@@ -9,21 +9,32 @@
     line-height: 1.5rem;
 } */
 
-
 :root {
     --mainColor: rgb(5, 15, 20);
-    --padding: 10px 10px 10px 10px;
+}
+
+.container {
+    padding: 10px 10px 10px 10px;
 }
 
 * {
     font-family: 'PT Sans', sans-serif;
 }
 
-header {
+
+.navi {
     background-color: black;
-    /* margin-top: auto;
-    margin-bottom: auto;
-    padding: 1rem 0 0 1rem; */
+    outline: 0.1rem double;
+    outline-color: white;
+}
+
+body {
+    background-image: url("../images/milky-way.avif");
+    background-repeat: repeat, repeat;
+}
+
+footer {
+    padding: 20px;
 }
 
 header > * a {
@@ -33,6 +44,10 @@ header > * a {
     font-size: 2rem;
     font-weight: 600;
     padding: 0 1rem 0 1rem;
+}
+
+.settings > a {
+    font-size: 1.25rem;
 }
 
 p {
@@ -46,6 +61,7 @@ body > img {
 }
 
 .body {
+    margin-top: 75px;
     padding: 2rem;
     margin-left: auto;
     margin-right: auto;
@@ -67,6 +83,8 @@ h1, h2, h3, h4, h5, h6 {
 
 
 footer {
+    width: auto;
+    overflow-x: hidden;
     background-color: black;
 }
 
@@ -91,10 +109,9 @@ footer {
 }
 
 
-header, footer {
+footer {
     outline: 0.1rem double;
     outline-color: white;
-
 }
 
 #outlined {
@@ -128,7 +145,8 @@ header, footer {
     font-size: 30px;
 }
 .amd {
-   width: 7rem;
+    height: 2rem;
+    width: 7rem;
 }
 .bootstrap {
     /* width: 4%; */
